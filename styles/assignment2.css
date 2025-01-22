@@ -19,7 +19,7 @@
     height: 60px;
 }
 .Kindergarden{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 .text-orange{
@@ -88,4 +88,53 @@
     border-radius: 12px;
     border-style: none;
     margin-bottom: 120px;
+    }
+   
+    .standard-curriculam{
+        font-size: 46px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .card-container{
+        display: flex;
+        gap: 28px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        
+    }
+    .card{
+        width: 360px;
+        height: 470px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: white;
+        padding: 20px;
+        border-radius: 18px;
+        
+    }
+    h5{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        color: rgba(128, 128, 128, 1);
+    }
+    .read-more{
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .card1{
+        background: linear-gradient(180deg, #DEF5FF, #FFFFFF)
+    }
+    .card2{
+        background: linear-gradient(180deg, #FFF4DC, #FFFFFF)
+    }
+    .card3{
+        background: linear-gradient(180deg, #EEE1FF, #FFFFFF)
     }
