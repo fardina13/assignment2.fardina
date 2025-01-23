@@ -7,6 +7,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .display-flex{
     display: flex;
 }
@@ -89,7 +90,12 @@
     border-style: none;
     margin-bottom: 120px;
     }
-   
+    section{
+        background-image: url('../assets/bg.png');
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+    }
     .standard-curriculam{
         font-size: 46px;
         font-weight: bold;
@@ -138,3 +144,163 @@
     .card3{
         background: linear-gradient(180deg, #EEE1FF, #FFFFFF)
     }
+    .button-container{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    a {
+        font-size: 24px;
+        font-weight: bold;
+        display: inline-block;
+        padding: 8px 16px;
+        
+      }
+      
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .previous {
+        background-color: rgba(254, 163, 1, 1);
+        color: white;
+      }
+      
+      .next {
+        background-color: rgba(254, 163, 1, 1);
+        color: white;
+      }
+      
+      .round {
+        border-radius: 50%;
+      }
+      .our-stories{
+        font-size: 46px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .container{
+        display: flex;
+        max-width: 1160px;
+        margin: auto;
+        gap: 18px;
+    }
+    .large-image-container{
+        width: 540px;
+        height: 630px;
+        background-color: white;
+        border-radius: 24px;
+    }
+
+    .large-image{
+        width: 540px;
+        height: 430px;
+    }
+    #story1-badge{
+        padding: 10px 20px;
+        margin-left: 38px;
+        margin-top: -314px;
+        background-color: rgba(60, 216, 232, 1);
+        border-radius: 16px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
+    .toddler{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .change{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .small-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 18px;
+    }
+    #story2-badge{
+        padding: 10px 20px;
+        margin-left: 38px;
+        margin-top: -314px;
+        background-color: rgba(149, 178, 38, 1);
+        border-radius: 16px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: white; 
+    }
+    #story3-badge{
+        padding: 10px 20px;
+        margin-left: 38px;
+        margin-top: -314px;
+        background-color: rgba(93, 88, 240, 1);
+        border-radius: 16px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: white; 
+    }
+    #story4-badge{
+        padding: 10px 20px;
+        margin-left: 38px;
+        margin-top: -314px;
+        background-color: rgba(93, 88, 240, 1);
+        border-radius: 16px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: white; 
+    }
+    #story5-badge{
+        padding: 10px 20px;
+        margin-left: 38px;
+        margin-top: -314px;
+        background-color: rgba(93, 88, 240, 1);
+        border-radius: 16px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: white; 
+    }
+    .family{
+        font-size: 18px;
+        font-weight: 800;
+    }
+    #view-all{
+        
+        margin-left: 620px;
+        margin-right: 620px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+    }
+      @media screen and (max-width:576px){
+        .navbar{
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-item, .nav-link, .Kindergarden, .btn-primary{
+            display: none;
+        }
+        .banner{
+            flex-direction: column-reverse;
+            justify-content: space-evenly;
+            text-align: center;
+            gap: 0;
+        }
+        .banner-title{
+            font-size: 32px;
+            text-align: center;
+        }
+        .banner-description{
+            font-size: 14px;
+        }
+      }
